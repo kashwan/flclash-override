@@ -25,9 +25,9 @@
 
 FLClash 的应用级 DNS 覆写优先级高于脚本生成的配置，因此不要重复添加冲突项：
 
-- `配置` → `覆写` → `DNS`：不要添加 `Nameserver`、`Fake-IP 范围`、`Nameserver Policy` 等项，保持为空。
+- `工具` → `进阶` → `DNS`：不要添加 `Nameserver`、`Fake-IP 范围`、`Nameserver Policy` 等项，保持为空。
 - 当前配置自己的 DNS 设置：同样保持默认，不要另设 DNS 或 Fake-IP。
-- `配置` → `覆写` → 常规/核心：关闭 `IPv6`，并关闭 `追加系统DNS`，避免出现 IPv6 出口或系统 DNS 兜底。
+- `工具` → 常规/核心：关闭 `IPv6`，并关闭 `追加系统DNS`，避免出现 IPv6 出口或系统 DNS 兜底。
 
 脚本已写入顶层 `ipv6: false` 和 `dns.ipv6: false`；但应用级 IPv6 覆写会在这之后合并，
 如果那里强制开启 IPv6，仍会覆盖脚本结果。
