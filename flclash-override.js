@@ -184,6 +184,7 @@ const main = (config) => {
 
   return {
     ...config,
+    ipv6: false,
     dns: {
       ...oldDns,
       ...dns,
