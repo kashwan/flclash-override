@@ -6,11 +6,19 @@
 
 功能：防 DNS 泄露、Fake-IP、域名嗅探、国内外分流、AI / 流媒体 / Telegram 分流、广告拦截。
 
+## 订阅链接
+
+本项目提供的是 FLClash 扩展脚本，可直接把下面的脚本地址当作远程脚本链接导入：
+
+- GitHub 原始链接：`https://raw.githubusercontent.com/kashwan/flclash-override/main/flclash-override.js`
+- 国内加速链接：`https://ghfast.top/https://raw.githubusercontent.com/kashwan/flclash-override/main/flclash-override.js`
+- CDN 备用链接：`https://cdn.jsdelivr.net/gh/kashwan/flclash-override@main/flclash-override.js`
+
 ## 使用方法
 
 1. 打开 FLClash，进入 `配置`，选择要套用的订阅配置。
 2. 进入该配置的 `扩展` → `扩展脚本`，选择 `前往配置脚本`。
-3. 新增脚本并导入 `flclash-override.js`，或直接粘贴全部内容；保存后返回选择它。
+3. 新增脚本后选择 `导入 URL`，填入上面的订阅链接或国内加速链接；也可以直接粘贴 `flclash-override.js` 的全部内容。
 4. 回到配置页，切换一次配置或手动重载，脚本结果才会生效。
 
 ## 使用前提
